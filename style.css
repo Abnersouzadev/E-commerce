@@ -1,0 +1,238 @@
+body{
+    font-family: 'Inter', sans-serif;
+    
+}
+
+header{
+  
+  box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.25);
+}
+
+.container{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-right: 140px;
+    margin-left: 180px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lista-produtos{
+    Width:968px;
+    Height:838px;
+    
+}
+
+#produto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+
+#imagem{
+    width: 296px;
+    height: 154px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #F5F5F5;
+}
+
+img{
+
+}
+
+#descriçao{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 296px;
+    height: 310px;
+    border: 2px solid #F5F5F5;
+}
+
+#categoria{
+    width: 70px;
+    height: 24px;
+    background-color: #2E245E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 5px;
+    gap: 10px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0px;
+    margin-left: 10px;
+}
+
+#nome{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#descricao-produto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+#preço{
+    color: #2E245E;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 10px;
+}
+
+button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: white;
+    border: none;
+    display: flex;
+    padding: 0px;
+    width: 143px;
+    margin-left: 10px;
+}
+
+.barra-lateral{
+    margin-top: 50px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    width: 347px;
+   
+}
+
+.barra-pesquisa{
+    background-color: #F5F5F5;;
+    Width:256px;
+    Height:50px;
+    font-family: 'Inter';
+    font-style: normal;
+    ont-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.botao-pesquisa{
+    width: 96px;
+    height: 56px;
+    color: white;
+    background-color: #37268C;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrinho-titulo{
+    width: 347px;
+    height: 50px;
+    background-color: #37268C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+
+.carrinho-vazio-cheio{
+    
+    width: 347px;
+    height: 329px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    align-items: center;
+    overflow-x: auto;
+    margin: 0px;
+
+}
+
+.paragrafo-carrinho{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.adicionar-itens{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+
+.menu-item:hover{
+    background-color: #37268C;
+    color: white;
+}
+
+button:hover{
+    background-color: #37268C;
+    color: white;
+}
+
+#produto:hover{
+    border: 1px solid #37268C;
+}
+
+.carrinho-info{
+    width: 345px;
+    height: 109px;
+    background-color: #292929;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.p-carrinho{
+    margin-left: 10px;
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Capstone</title>
+</head>
+<body>
+    <header class="menu">
+        <div class="container">
+            <h1 class="logo">Weartake</h1>
+            <nav class="menu-nav">
+                <ul class="menu-lista">
+                    <li ><p class="menu-item"><b>Todos</b></p></li>
+                    <li ><p class="menu-item">Acessórios</p></li>
+                    <li ><p class="menu-item">Calçados</p></li>
+                    <li ><p class="menu-item">Camisetas</p></li>
+                </ul>
+            </nav>
+        </div>
+      </header>
+    <main>
+        <section class="produtos">
+            <ul class="lista-produtos">
+            </ul>
+        </section>
+        <div class="barra-lateral">
+            <form >
+                <label for="pesquisa"></label>
+                <input class="barra-pesquisa" type="text" id="pesquisa" name="pesquisa" placeholder="Digite aqui sua pesquisa">
+                
+                <button class="botao-pesquisa" type="submit">Pesquisar</button>
+            </form>
+            <section class="carrinho">
+                <p class="carrinho-titulo">Carrinho de compras</p>
+                
+                <ul class="carrinho-vazio-cheio"></ul>
+                
+                <div class="carrinho-info">
+                    <p class="p-carrinho">Quantidade:</p>
+                    <p class="p-carrinho">Total:</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="/js/database.js"></script>
+    <script src="/js/index.js"></script>
+    
+</body>
+</html>
